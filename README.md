@@ -8,8 +8,10 @@ Welcome to my personal portfolio repository! This site showcases who I am as a S
 
 ## 📸 Preview
 
-![Screenshot 1](./client/public/assets/screenshots/Screenshot1.png)
-![Screenshot 2](./client/public/assets/screenshots/Screenshot2.png)
+<p align="center">
+  <img src="./client/public/assets/screenshots/Screenshot1.png" alt="Screenshot 1" width="45%" />
+  <img src="./client/public/assets/screenshots/Screenshot2.png" alt="Screenshot 2" width="45%" />
+</p>
 
 ## Tech Stack
 
