@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
-import { FiDownload } from "react-icons/fi";
+import { FiDownload, FiArrowRight } from "react-icons/fi";
+
 import * as THREE from "three";
 import { Tween, Easing, update as tweenUpdate } from "@tweenjs/tween.js";
 
@@ -165,10 +166,10 @@ const Hero = () => {
           {/* Text Content */}
           <div>
             <h1 className="text-4xl md:text-6xl font-bold gradient-text px-0 py-1">
-              Hello
+              Hello & WelcomE
             </h1>
             <p className="text-md md:text-lg mt-2 text-gray-400">
-              Software Engineer @FISI Ltd. Since 2023
+              Software Development Engineer @FISI Ltd. Since 2023
             </p>
             <div className="flex gap-4 mt-4">
               <a
@@ -179,6 +180,16 @@ const Hero = () => {
                 <span className="gradient-text">Download CV</span>
                 <span className="rounded-full transition-all duration-300 transform group-hover:translate-y-0.5">
                   <FiDownload className="text-base" />
+                </span>
+              </a>
+              <a
+                href="/Dipangkar_CV.pdf"
+                download
+                className="group hidden md:inline-flex bg-[var(--color-gray-2)] rounded-full px-4 py-2 hover:bg-[var(--color-gray-5)] font-semibold transition-colors duration-300 cursor-pointer items-center gap-2 whitespace-nowrap"
+              >
+                <span className="gradient-text">Recent Work!</span>
+                <span className="rounded-full transition-all duration-300 transform group-hover:translate-y-0.5">
+                  <FiArrowRight className="text-base" />
                 </span>
               </a>
             </div>

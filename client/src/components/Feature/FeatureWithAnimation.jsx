@@ -76,7 +76,7 @@ const FeatureWithAnimation = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="gradient-bg-bw-lr h-48 lg:h-full rounded-md lg:col-span-6 lg:col-start-6 lg:row-start-2 card-inner h-full w-full"
           >
-            1
+            <p className="text-[var(--color-gray-1)]"> Frontend Heavy FS-SDE</p>
           </motion.div>
 
           {/* Card 2 with dynamic content */}
@@ -190,7 +190,9 @@ const FeatureWithAnimation = () => {
             className="gradient-bg-bw-rl h-48 lg:h-full p-4 card-inner h-full w-full text-white bg-gray-800 rounded-md lg:col-span-6 lg:row-start-7"
           >
             {/* <div className="card-inner h-full w-full bg-[rgb(44,44,46)] text-white p-4"></div> */}
-            5
+            <p className="text-[var(--color-white-1)]">
+              I have a research-oriented mindset.
+            </p>
           </motion.div>
         </div>
       </div>

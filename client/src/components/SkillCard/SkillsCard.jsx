@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
+import { FiArrowRight } from "react-icons/fi";
 import { useInView } from "react-intersection-observer";
 import {
   FaHtml5,
@@ -162,15 +163,29 @@ const SkillsCard = () => {
             className="col-span-2 md:col-span-4 lg:col-span-5 flex flex-col justify-center items-center bg-[var(--color-gray-11)] border border-gray-300 shadow-md p-4 rounded-xl"
           >
             <h2 className="text-lg font-semibold mb-2 text-center">
-              Explore More Skills
+              Explore Around
             </h2>
             <div className="flex gap-4">
-              <button className="px-4 py-1 bg-blue-600 text-white rounded hover:bg-blue-700">
-                Projects
-              </button>
-              <button className="px-4 py-1 bg-green-600 text-white rounded hover:bg-green-700">
-                Contact
-              </button>
+              <a
+                href="/Dipangkar_CV.pdf"
+                download
+                className="group hidden md:inline-flex bg-[var(--color-gray-2)] rounded-full px-4 py-2 hover:bg-[var(--color-gray-5)] font-semibold transition-colors duration-300 cursor-pointer items-center gap-2 whitespace-nowrap"
+              >
+                <span className="gradient-text">Check-out my recent work!</span>
+                <span className="rounded-full transition-all duration-300 transform group-hover:translate-y-0.5">
+                  <FiArrowRight className="text-base" />
+                </span>
+              </a>
+              <a
+                href="/Dipangkar_CV.pdf"
+                download
+                className="group hidden md:inline-flex bg-[var(--color-gray-2)] rounded-full px-4 py-2 hover:bg-[var(--color-gray-5)] font-semibold transition-colors duration-300 cursor-pointer items-center gap-2 whitespace-nowrap"
+              >
+                <span className="gradient-text">Let's Connect</span>
+                <span className="rounded-full transition-all duration-300 transform group-hover:translate-y-0.5">
+                  <FiArrowRight className="text-base" />
+                </span>
+              </a>
             </div>
           </motion.div>
         </div>

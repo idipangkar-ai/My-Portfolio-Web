@@ -9,7 +9,10 @@ const Footer = () => {
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-semibold text-[#FF7A01]">About Me</h3>
-            <p className="text-gray-400 mt-2">I'm</p>
+            <p className="text-gray-400 mt-2">
+              Software Development Engineer | Frontend Heavy Full-Stack | @FISI
+              Ltd Since-2023
+            </p>
           </div>
 
           {/* Links Section */}
@@ -48,16 +51,16 @@ const Footer = () => {
               <li>
                 Email:{" "}
                 <a
-                  href="mailto:someone@example.com"
+                  href="mailto:idipangkar5@gmail.com"
                   className="hover:text-[#FF7A01]"
                 >
-                  someone@example.com
+                  idipangkar5@gmail.com
                 </a>
               </li>
               <li>
                 Phone:{" "}
-                <a href="tel:+1234567890" className="hover:text-[#FF7A01]">
-                  +1 234 567 890
+                <a href="tel:+918837388307" className="hover:text-[#FF7A01]">
+                  +91 883***83*7
                 </a>
               </li>
             </ul>
