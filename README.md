@@ -19,6 +19,26 @@ Welcome to my personal portfolio repository! This site showcases who I am as a S
 
 </p>
 
+## Mobile Version | Project Overview | Gallery
+
+<p align="center">
+  <img src="./client/public/assets/screenshots/imgmob1.png" alt="Screenshot for Mobile view 1" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob2.png" alt="Screenshot for Mobile view 2" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob3.png" alt="Screenshot for Mobile view 3" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob4.png" alt="Screenshot for Mobile view 4" width="22%" />
+</p>
+<p align="center">
+  <img src="./client/public/assets/screenshots/imgmob5.png" alt="Screenshot for Mobile view 9" width="30%" />
+  <img src="./client/public/assets/screenshots/imgmob6.png" alt="Screenshot for Mobile view 10" width="30%" />
+  <img src="./client/public/assets/screenshots/imgmob7.png" alt="Screenshot for Mobile view 11" width="30%" />
+</p>
+<p align="center">
+  <img src="./client/public/assets/screenshots/imgmob8.png" alt="Screenshot for Mobile view 5" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob9.png" alt="Screenshot for Mobile view 6" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob10.png" alt="Screenshot for Mobile view 7" width="22%" />
+  <img src="./client/public/assets/screenshots/imgmob11.png" alt="Screenshot for Mobile view 8" width="22%" />
+</p>
+
 ## Tech Stack
 
 - **Frontend:** React.js / Next.js / HTML / CSS / Tailwind / Three / Motion / Parallax / Gsap
