@@ -6,6 +6,11 @@ Welcome to my personal portfolio repository! This site showcases who I am as a S
 
 [idipangkar.netlify.app](https://idipangkar.netlify.app/)
 
+## 📸 Preview
+
+![Portfolio Screenshot](./assets/screenshots/Screenshot1.png)
+![Portfolio Screenshot](./assets/screenshots/Screenshot2.png)
+
 ## Tech Stack
 
 - **Frontend:** React.js / Next.js / HTML / CSS / Tailwind / Three / Motion / Parallax / Gsap
@@ -73,10 +78,10 @@ This is a personal project and not open to contributions at the moment. However,
 
 ## Contact Me
 
-Portfolio: [idipangkar.netlify.app](https://idipangkar.netlify.app)
-Email: idipangkar5@gmail.com
-LinkedIn: https://www.linkedin.com/in/idipangkar-ai/
-GitHub: [github.com/idipangkar-ai](https://github.com/idipangkar-ai)
+- **Portfolio:** [idipangkar.netlify.app](https://idipangkar.netlify.app)
+- **Email:** idipangkar5@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/idipangkar-ai/
+- **GitHub:** [github.com/idipangkar-ai](https://github.com/idipangkar-ai)
 
 ## License
 
