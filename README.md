@@ -9,13 +9,13 @@ Welcome to my personal portfolio repository! This site showcases who I am as a S
 ## Desktop Version | Project Overview | Gallery
 
 <p align="center">
-  <img src="./client/public/assets/screenshots/imgdesk1" alt="Screenshot for Desk view 1" width="30%" />
-  <img src="./client/public/assets/screenshots/imgdesk2" alt="Screenshot for Desk view 2" width="30%" />
-  <img src="./client/public/assets/screenshots/imgdesk3" alt="Screenshot for Desk view 3" width="30%" />
+  <img src="./client/public/assets/screenshots/imgdesk1.png" alt="Screenshot for Desk view 1" width="30%" />
+  <img src="./client/public/assets/screenshots/imgdesk2.png" alt="Screenshot for Desk view 2" width="30%" />
+  <img src="./client/public/assets/screenshots/imgdesk3.png" alt="Screenshot for Desk view 3" width="30%" />
 </p>
 <p align="center">
-  <img src="./client/public/assets/screenshots/imgdesk4" alt="Screenshot for Desk view 4" width="45%" />
-  <img src="./client/public/assets/screenshots/imgdesk5" alt="Screenshot for Desk view 5" width="45%" />
+  <img src="./client/public/assets/screenshots/imgdesk4.png" alt="Screenshot for Desk view 4" width="45%" />
+  <img src="./client/public/assets/screenshots/imgdesk5.png" alt="Screenshot for Desk view 5" width="45%" />
 
 </p>
 
