@@ -1,19 +1,21 @@
 import NavBar from "../components/Header/Navbar";
 import AboutHero from "../components/AboutDetail/AboutHero";
-import About from "../components/AboutDetail/About";
-import Qualification from "../components/AboutDetail/Qualification";
 import Footer from "../components/Common/Footer";
-// import Doraemon from "../components/AboutDetail/Doraemon";
 import UFOSection from "../components/AboutDetail/Ufo";
+import Education from "../components/AboutDetail/Education";
+import WorkExperience from "../components/AboutDetail/WorkExperience";
+import QuickStats from "../components/Common/QuickStats";
+import TechStack from "../components/AboutDetail/TechStack";
 
 const AboutDetail = () => {
   return (
     <>
       <NavBar />
       <AboutHero />
-      <About />
-      <Qualification />
-      {/* <Doraemon /> */}
+      <Education />
+      <WorkExperience />
+      <QuickStats />
+      <TechStack />
       <UFOSection />
       <Footer />
     </>

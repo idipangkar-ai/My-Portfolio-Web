@@ -23,6 +23,7 @@
     "react-parallax-tilt": "^1.7.299",
     "react-router-dom": "^7.6.3",
     "react-scroll-parallax": "^3.4.5",
+    "react-typed": "^2.0.12",
     "tailwindcss": "^4.1.11",
     "three": "^0.178.0",
     "three-stdlib": "^2.36.0"

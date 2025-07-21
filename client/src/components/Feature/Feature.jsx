@@ -56,7 +56,7 @@ const cardVariant = {
   },
 };
 
-const FeatureWithAnimation = () => {
+const Feature = () => {
   return (
     <div className="my-24">
       <div className="text-white text-center mt-8 mb-6">
@@ -200,100 +200,4 @@ const FeatureWithAnimation = () => {
   );
 };
 
-export default FeatureWithAnimation;
-
-// -------------------------------------- //
-
-// import React from "react";
-// import { motion } from "framer-motion";
-// import "./FeatureWithAnimation.css";
-
-// const cardVariant = {
-//   hidden: { opacity: 0, scale: 0.9, y: 50 },
-//   visible: {
-//     opacity: 1,
-//     scale: 1,
-//     y: 0,
-//     transition: { duration: 0.6, ease: "easeOut" },
-//   },
-// };
-
-// const FeatureWithAnimation = () => {
-//   return (
-//     <div className="my-24">
-//       <div className="text-white text-center mt-8 mb-6">
-//         <h1 className="text-[#aeaeb2] text-4xl sm:text-5xl font-semibold">
-//           Feature
-//         </h1>
-//         <p className="text-[#636366] mt-2">What I do?</p>
-//       </div>
-
-//       <div>
-//         <div className="grid grid-cols-1 gap-4 p-4 lg:grid-cols-11 lg:grid-rows-8">
-//           {/* Card 1 */}
-//           <motion.div
-//             variants={cardVariant}
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: false, amount: 0.3 }}
-//             className="gradient-bg-bw-lr h-48 lg:h-full rounded-md lg:col-span-6 lg:col-start-6 lg:row-start-2"
-//           >
-//             1
-//           </motion.div>
-
-//           {/* Card 2 */}
-//           <motion.div
-//             variants={cardVariant}
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: false, amount: 0.3 }}
-//             className="glow-box glow-2 h-48 lg:h-full lg:col-span-3 lg:row-span-4 lg:col-start-2 lg:row-start-1"
-//           >
-//             <div className="card-inner h-full w-full bg-[rgb(36,36,38)] text-white">
-//               2
-//             </div>
-//           </motion.div>
-
-//           {/* Card 3 */}
-//           <motion.div
-//             variants={cardVariant}
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: false, amount: 0.3 }}
-//             className="glow-box glow-1 h-48 lg:h-full lg:col-span-3 lg:row-span-4 lg:col-start-5 lg:row-start-3"
-//           >
-//             <div className="card-inner h-full w-full bg-[rgb(44,44,46)] text-white">
-//               3
-//             </div>
-//           </motion.div>
-
-//           {/* Card 4 */}
-//           <motion.div
-//             variants={cardVariant}
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: false, amount: 0.3 }}
-//             className="glow-box glow-3 h-48 lg:h-full lg:col-span-3 lg:row-span-4 lg:col-start-8 lg:row-start-5 p-4 text-white bg-gray-800 rounded-md"
-//           >
-//             <div className="card-inner h-full w-full bg-[rgb(44,44,46)] text-white">
-//               4
-//             </div>
-//           </motion.div>
-
-//           {/* Card 5 */}
-//           <motion.div
-//             variants={cardVariant}
-//             initial="hidden"
-//             whileInView="visible"
-//             viewport={{ once: false, amount: 0.3 }}
-//             className="gradient-bg-bw-rl h-48 lg:h-full p-4 text-white bg-gray-800 rounded-md lg:col-span-6 lg:row-start-7"
-//           >
-//             5
-//           </motion.div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FeatureWithAnimation;
+export default Feature;
